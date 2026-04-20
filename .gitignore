@@ -1,0 +1,20 @@
+# 忽略 Python 编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 忽略结果文件
+results/
+
+# 忽略 IDE 相关文件
+.vscode/
+.idea/
+
+# 忽略系统文件
+Thumbs.db
+.DS_Store
+
+# 忽略临时文件
+*.tmp
+*.temp
+*.log
