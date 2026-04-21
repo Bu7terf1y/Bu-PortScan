@@ -2,6 +2,9 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.spec
+build/
+dist/
 
 # 忽略结果文件
 results/

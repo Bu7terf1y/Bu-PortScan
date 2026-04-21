@@ -9,21 +9,31 @@ Bu-PortScan 是一个简单高效的端口扫描工具，基于 Python 开发，
 - ✅ 实时显示扫描结果
 - ✅ 自动保存扫描结果到 CSV 文件
 - ✅ 简洁的命令行交互界面
+- ✅ 提供 Windows 可执行文件（exe）和 zip 打包版本
 
 ## 环境要求
 
+### 直接运行 Python 脚本
 - Python 3.6+
 - 依赖库：
   - requests
   - rich
 
+### 使用 zip 打包版本
+- Windows 系统
+- 无需安装 Python 环境
+
 ## 安装依赖
+
+如果直接运行 Python 脚本，需要安装依赖：
 
 ```bash
 pip install -r requirements.txt
 ```
 
 ## 使用方法
+
+### 方法一：直接运行 Python 脚本
 
 1. 运行程序：
    ```bash
@@ -36,7 +46,11 @@ pip install -r requirements.txt
    - 3. 设置端口字典
    - 4. 退出
 
-3. 扫描结果会保存在 `results` 目录下，以目标 IP 命名的 CSV 文件中。
+### 方法二：使用 zip 打包版本
+
+1. 解压 `Bu-PortScan_v1.0.0_win.zip` 文件
+2. 双击运行解压目录中的 `Bu-PortScan.exe` 文件
+3. 按照命令行提示进行操作
 
 ## 端口字典说明
 
@@ -61,9 +75,11 @@ pip install -r requirements.txt
 
 ```
 Bu-PortScan/
-├── Bu-PortScan.py    # 主程序
+├── Bu-PortScan.py         # 主程序（Python 源码）
+├── Bu-PortScan_v1.0.0_win.zip  # Windows 打包版本（含 exe）
 ├── .gitignore        # Git 忽略文件
 ├── README.md         # 项目说明
+├── logo.ico          # 程序图标
 └── requirements.txt  # 依赖库
 ```
 
