@@ -1,5 +1,7 @@
 # Bu-PortScan
 
+<img width="632" height="214" alt="image" src="https://github.com/user-attachments/assets/45af25af-a480-4a2b-ae72-d9f7cf6adbfa" />
+
 Bu-PortScan 是一个简单高效的端口扫描工具，基于 Python 开发，支持多线程扫描和多种端口范围选择。
 
 ## 功能特点
